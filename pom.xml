@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spring-postgres</artifactId>
+	<artifactId>flights-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-postgres</name>
-	<description>Demo project for Spring Boot with postgres</description>
+	<description>Spring Boot Flights API</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
