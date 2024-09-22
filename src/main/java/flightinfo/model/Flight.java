@@ -5,12 +5,14 @@ public class Flight {
     private String flightNumber;
     private String destination;
     private String status;
+    private String gate;
 
-    public Flight(String time, String flight, String destination, String status) {
+    public Flight(String time, String flightNumber, String destination, String status, String gate) {
         this.time = time;
-        this.flightNumber = flight;
+        this.flightNumber = flightNumber;
         this.destination = destination;
         this.status = status;
+        this.gate = gate;
     }
 
     public String getTime() {
@@ -27,6 +29,10 @@ public class Flight {
 
     public String getStatus() {
         return status;
+    }
+
+    public String getGate() {
+        return gate;
     }
 
 }
