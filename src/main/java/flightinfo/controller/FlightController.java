@@ -18,9 +18,9 @@ public class FlightController {
     public List<Flight> getFlights() {
 
         return Arrays.asList(
-                new Flight("13:00", "A321", "Copenhagen", "On Time", "D32"),
-                new Flight("14:00", "A320", "Oslo", "Delayed", "B3"),
-                new Flight("15:00", "A319", "Paris", "On Time", "A5"));
+                new Flight("13:00", "A321", "Lillestrøm", "On Time", "D32"),
+                new Flight("14:00", "A320", "Tromsø", "Delayed", "B3"),
+                new Flight("15:00", "A319", "Halden", "On Time", "A5"));
     }
 
 }
